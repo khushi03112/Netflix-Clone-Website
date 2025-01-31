@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(23, 22, 22);
+    color: #fff;
+}
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button
+{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    padding:7px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn
+{
+    display:inline-flex;
+    align-items: center;
+    background:transparent;
+    border: 1px solid #fff;
+}
+.btn img
+{
+    width: 12px;
+    margin-left: 10px;
+}
+
+
+/* -----------------Second part ------------------*/
+.header-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.header-content h1{
+    font-size: 33px;
+    line-height: 75px;
+    font-weight:700;
+    max-width: 650px;
+    font-style: inherit;
+}
+.header-content h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.emailsignup
+ {
+    /* background:#fff; */
+    width: 600px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.srch{
+    width: 400px;
+    height: 50px;
+    background: transparent;
+    border:1px solid #fff;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: white;
+    /* border-right: none; */
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    outline: none;
+}
+.but{
+    width: 170px;
+    height: 50px;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 4px;
+    color: white;
+    margin-top: 13px;
+    margin-left: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.but:hover
+{
+    background: #970404;
+}
+
+/* -------------LOGO AND TEXT-------------- */
+.logo-text
+{
+    padding: 35px 13%;
+    font-size: 20px;
+    width: 100%;
+    background: black;
+    margin-top: 5px;
+}
+.row
+{
+    display: flex;
+    width: 100%;
+    padding: 40px 0px;
+    align-items: center;
+}
+.text-col
+{
+    flex-basis: 50%;
+}
+ .text-col h1{
+    font-size: 45px;
+    line-height: 100px;
+    font-style:inherit;
+    font-weight: 900;
+} 
+.text-col p{
+    font-size: 23px;
+}
+.img-col
+{
+    padding-left: 10%;
+}
+
+/*---------log-text2------------*/
+.log-text2
+{
+    padding: 35px 10%;
+    width: 100%;
+    background: black;
+    margin-top: 5px;
+}
+.row2
+{
+    display: flex;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.text-col2 h5{
+     font-size: 55px;
+     font-weight:600;
+     line-height: 60px;
+     letter-spacing:0px;
+     margin-left: 18px;
+}
+
+.text-col2 p{
+    font-size: 24px; 
+    margin-top: 25px;
+    margin-left: 18px;
+}
+.img-col2 img
+{
+    height: 330px;
+}
+
+
+/*------------LOG0-TEXT3--------------------*/
+.logo-text3
+{
+    padding: 35px 10%;
+    font-size: 20px;
+    width: 100%;
+    background: black;
+    margin-top: 5px;
+}
+.row3
+{
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+.text-col3
+{
+    flex-basis: 50%;
+    margin-bottom: 50px;
+}
+.text-col3 h1{
+    font-size: 45px;
+    line-height: 100px;
+    font-style:inherit;
+    font-weight: 900;
+    margin-left: 12px;
+} 
+.text-col3 p{
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 12px;
+}
+
+/*-------------------logo-text4---------------------*/
+
+.log-text4
+{
+    padding: 35px 10%;
+    width: 100%;
+    background: black;
+    margin-top: 5px;
+}
+.row4
+{
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+.text-col4
+{
+    flex-basis: 50%;
+}
+.text-col4 h1{
+    font-size: 50px;
+    font-style:inherit;
+    font-weight: 600;
+    line-height: 55px;
+}
+.log-text4 p{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+/*--------------------------Fre--------------------*/
+.fre
+{
+    padding: 18px 12%;
+    text-align: center;
+    background: black;
+    margin-top: 5px;
+}
+.fre h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+.accordion
+{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight:500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transfrom 0.5s;
+}
+input[type="radio"]
+{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label+.content
+{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after
+{
+    transform: rotate(135deg);
+}
+
+
+.emailsignup2
+ {
+    /* background:#fff; */
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+
+}
+.srch2{
+    width: 400px;
+    height: 50px;
+    background: transparent;
+    border:1px solid #fff;
+    /* margin-top: 15px; */
+    margin-left:20%;
+    border-radius: 4px;
+    color: white;
+    /* border-right: none; */
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    outline: none;
+}
+.but2{
+    width: 170px;
+    height: 50px;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 4px;
+    color: white;
+    /* margin-top: 13px; */
+    margin-right:170px ;
+    outline: none;
+    cursor: pointer;
+}
+.but2:hover
+{
+    background: #970404;
+}
+
+small{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* -----------------------------FOOTER------------------------- */
+.footer
+{
+    width: 100%;
+    padding: 50px 15% 10px;
+    margin-top: 5px;
+    background: black;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col {
+    flex-basis: 25px;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a{
+    display: block;
+    /* text-decoration: none; */
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.copy
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
